@@ -1,0 +1,90 @@
+{
+  "categories": [
+    {
+      "id": "180b",
+      "name": "Front-end"
+    },
+    {
+      "id": "dab2",
+      "name": "Back-end"
+    },
+    {
+      "id": "afa1",
+      "name": "Mobile"
+    },
+    {
+      "id": "0f67",
+      "name": "UI"
+    },
+    {
+      "id": "8987",
+      "name": "UX"
+    },
+    {
+      "id": "743c",
+      "name": "SEO"
+    },
+    {
+      "id": "a6dc",
+      "name": "Cybersecurity"
+    }
+  ],
+  "posts": [],
+  "popularPosts": [
+    {
+      "id": "dffe",
+      "title": "Lorem Ipsun",
+      "text": "<h1>Lorem Ipsun</h1>",
+      "createdAt": 1741818948854,
+      "readTime": "3 min",
+      "categoryId": "180b",
+      "authorId": "ca3d"
+    },
+    {
+      "id": "9f5f",
+      "title": "Lorem Ipsun",
+      "text": "<h1>Lorem Ipsun</h1>",
+      "createdAt": 1741818948854,
+      "readTime": "3 min",
+      "categoryId": "dab2",
+      "authorId": "ca3d"
+    },
+    {
+      "id": "a0a7",
+      "title": "Lorem Ipsun",
+      "text": "<h1>Lorem Ipsun</h1>",
+      "createdAt": 1741818948854,
+      "readTime": "3 min",
+      "categoryId": "afa1",
+      "authorId": "ca3d"
+    },
+    {
+      "id": "4c26",
+      "title": "Lorem Ipsun",
+      "text": "<h1>Lorem Ipsun</h1>",
+      "createdAt": 1741818948854,
+      "readTime": "3 min",
+      "categoryId": "0f67",
+      "authorId": "ca3d"
+    },
+    {
+      "id": "b246",
+      "title": "Lorem Ipsun",
+      "text": "<h1>Lorem Ipsun</h1>",
+      "createdAt": 1741818948854,
+      "readTime": "3 min",
+      "categoryId": "8987",
+      "authorId": "ca3d"
+    }
+  ],
+  "authors": [
+    {
+      "id": "ca3d",
+      "name": "Gabriel Stimamiglio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non finibus quam.",
+      "facebook": "https://github.com/GabrielStima/fashionstore-backend",
+      "youtube": "https://github.com/GabrielStima/fashionstore-backend",
+      "instagram": "https://github.com/GabrielStima/fashionstore-backend"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+.tag {
+    background-color: var(--principal-color);
+    border-radius: 50px;
+    padding: 5px;
+}
