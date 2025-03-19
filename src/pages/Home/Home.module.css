@@ -44,5 +44,26 @@
         h2 {
             font-size: 30pt;
         }
+
+        .popularPostContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .sectionThree {
+        h2 {
+            font-size: 30pt;
+            text-align: center;
+        }
+
+        .categoriesContainer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            margin: 50px 0;
+        }
     }
 }

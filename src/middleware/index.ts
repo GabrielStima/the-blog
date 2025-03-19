@@ -33,3 +33,11 @@ export const getCategoryById = async (
   );
   return response.data[0];
 };
+
+export const getCategories = async (): Promise<Category[]> => {
+  const response = await axios.get<Category[]>(
+    "http://localhost:3001/categories"
+  );
+
+  return response.data;
+};
