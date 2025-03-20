@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import logo from "../../assets/images/logo.png";
 import navbarStyle from "./Navbar.module.css";
 
@@ -7,15 +8,15 @@ export const Navbar = () => {
       <img src={logo} alt="Logo" className={navbarStyle.logo} />
       <nav className={navbarStyle.menu}>
         <ul>
-          <a href="#">
+          <Link to="/">
             <li>Home</li>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/about-us">
             <li>About Us</li>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/contact-us">
             <li>Contact Us</li>
-          </a>
+          </Link>
         </ul>
       </nav>
     </header>

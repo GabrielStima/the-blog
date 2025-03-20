@@ -44,7 +44,6 @@ export const Home = () => {
             ))}
           </div>
         </section>
-        <section></section>
       </main>
       <Footer />
     </>
