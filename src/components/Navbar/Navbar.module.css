@@ -4,6 +4,7 @@
     align-items: center;
     padding: 0 145px;
     height: 84px;
+    margin-bottom: 60px;
 
     .logo {
         height: 80%;
@@ -23,6 +24,21 @@
                 &:hover {
                     color: var(--second-color);
                 }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding: 0 50px;
+    }
+
+    @media screen and (max-width: 425px) {
+        padding: 0 20px;
+        flex-direction: column;
+
+        .menu {
+            ul {
+                padding: 0;
             }
         }
     }

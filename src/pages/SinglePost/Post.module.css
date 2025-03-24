@@ -37,4 +37,37 @@
             }
         }
     }
+
+    @media screen and (max-width: 1024px) {
+        padding: 0 50px;
+
+        .content {
+            .subContent {
+                .author {
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        padding: 0 20px;
+
+        .content {
+            flex-direction: column;
+
+            .subContent {
+                width: 100%;
+
+                &:last-child {
+                    width: 100%;
+                }
+
+                .author {
+                    flex-direction: row;
+                }
+            }
+        }
+    }
 }
