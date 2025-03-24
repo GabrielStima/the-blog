@@ -1,0 +1,40 @@
+.container {
+    padding: 0 140px;
+    margin-bottom: 100px;
+
+    img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .content {
+        display: flex;
+
+        .subContent {
+            width: 80%;
+
+            &:last-child {
+                width: 30%;
+            }
+
+            .author {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            .categories {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .rootText {
+                width: 90%;
+            }
+        }
+    }
+}

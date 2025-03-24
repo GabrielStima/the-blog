@@ -41,3 +41,39 @@ export const getCategories = async (): Promise<Category[]> => {
 
   return response.data;
 };
+
+export const getPostById = async (id: string): Promise<CompletePost> => {
+  const post = await axios.get<Post[]>("http://localhost:3001/posts?id=" + id);
+
+  const temp = await Promise.all(
+    post.data.map(async (item: Post) => {
+      const { categoryId, authorId } = item;
+      const author = await getAuthorById(authorId);
+      const category = await getCategoryById(categoryId);
+
+      return { ...item, author, category };
+    })
+  );
+
+  return temp[0];
+};
+
+export const getPostsByCategory = async (
+  idCategory: string
+): Promise<CompletePost[]> => {
+  const posts = await axios.get<Post[]>(
+    "http://localhost:3001/posts?categoryId=" + idCategory
+  );
+
+  const temp = await Promise.all(
+    posts.data.map(async (item: Post) => {
+      const { categoryId, authorId } = item;
+      const author = await getAuthorById(authorId);
+      const category = await getCategoryById(categoryId);
+
+      return { ...item, author, category };
+    })
+  );
+
+  return temp;
+};
