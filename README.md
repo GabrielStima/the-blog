@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+<h1 align="left">Project The Blog</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###
 
-Currently, two official plugins are available:
+<p align="left">This project is intended to be part of my portfolio. With this project, I intend to improve my basic skills in React with TS, creating a simple blog. No AI was used ❌</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###
 
-## Expanding the ESLint configuration
+<h2 align="left">Figma</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+###
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<p align="left">I used the following Figma as inspiration <a href="https://www.figma.com/community/file/1418954878707401059">click here</a></p>
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+###
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<h2 align="left">Application</h2>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+###
+
+<p align="left">Application created using Vite</p>
+
+- `npm run dev` : Run the development environment;
+- `npm run server` : Run the JSON-server;
+
+###
+
+<h3 align="left">Dependencies</h3>
+
+###
+
+- `axios`: `^1.8.3`,
+- `json-server`: `^1.0.0-beta.3`,
+- `react`: `^19.0.0`,
+- `react-dom`: `^19.0.0`,
+- `react-router`: `^7.3.0`
+
+###
+
+<h3 align="left">To run the project</h3>
+
+###
+
+1. To run this project we first need to run the `npm run server` command, this will make the json-server lib run and bring up the backend mock;
+2. After that we just need to run `npm run dev` to bring up the application and use it on the port provided;
+
+###
+
+<h2 align="left">I code with</h2>
+
+###
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
+</div>
+
+###
